@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CollegeChalo Clone - Frontend
 
-## Getting Started
+A high-performance, SEO-optimized educational platform built with Next.js 14+ for discovering colleges, courses, and exams across India.
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **[COPILOT-CONTEXT.md](./COPILOT-CONTEXT.md)** - Complete project context for Copilot sessions
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Detailed technical architecture
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn UI
+- **State Management**: Zustand + React Query
+- **Forms**: React Hook Form + Zod
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/              # Next.js App Router pages
+├── components/       # React components
+├── lib/              # Utilities, API clients, hooks
+├── types/            # TypeScript type definitions
+└── styles/           # Global styles
+```
 
-## Deploy on Vercel
+## 🎯 Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 20,000+ College listings
+- 500,000+ Course catalog
+- 500,000+ Exam information
+- Advanced search & filtering
+- SEO optimized for thousands of pages
+- High performance with ISR
+- Responsive mobile-first design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Environment Variables
+
+Create a `.env.local` file:
+
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:8080/api
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
+
+## 📝 Development Workflow
+
+1. Create feature branch
+2. Make changes
+3. Test locally
+4. Create pull request
+5. Deploy to production
+
+## 🌐 Original Website
+
+https://www.collegechalo.com/
+
+## 📞 Project Location
+
+`/Users/apple/collegechalo-frontend`
+
+---
+
+**Built with ❤️ for education in India**
